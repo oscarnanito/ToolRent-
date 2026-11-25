@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | ToolRent &amp; Sale</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header class="encabezado">
+        <a class="logo" href="index.html">ToolRent &amp; Sale</a>
+        <nav aria-label="Menú principal">
+            <a href="index.html">Inicio</a>
+            <a href="herramientas.html">Herramientas</a>
+            <a href="alquiler.html">Alquiler</a>
+            <a href="contacto.html" class="activo" aria-current="page">Contacto</a>
+        </nav>
+    </header>
+    <main class="contenido">
+        <h1>Contáctanos</h1>
+        <p class="subtitulo">Estamos disponibles para ayudarte a elegir el equipo adecuado</p>
+        <section class="dos-columnas contacto">
+            <div>
+                <div class="datos-contacto">
+                    <p>Teléfono: 300 3333 0000</p>
+                    <p>Correo: Contacto@toolrent.com</p>
+                    <p>Dirección: Bogotá Colombia</p>
+                </div>
+                <p class="titulo-formulario">Formulario de contacto</p>
+                
+                <form action="confirmacion.html" method="get">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" required>
+                    <label for="correo">Correo</label>
+                    <input id="correo" type="email" required>
+                    <button class="boton" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            <img class="imagen-lateral" src="imagenes/contacto.png" alt="Símbolos de teléfono, correo y contacto">
+        </section>
+    </main>
+</body>
+</html>

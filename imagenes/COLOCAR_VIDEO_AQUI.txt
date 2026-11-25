@@ -1,0 +1,3 @@
+Copia tu video en esta carpeta y ponle el nombre video.mp4.
+El archivo index.html ya tiene la ruta imagenes/video.mp4.
+No se incluye un video de ejemplo.

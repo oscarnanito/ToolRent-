@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler | ToolRent &amp; Sale</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header class="encabezado">
+        <a class="logo" href="index.html">ToolRent &amp; Sale</a>
+        <nav aria-label="Menú principal">
+            <a href="index.html">Inicio</a>
+            <a href="herramientas.html">Herramientas</a>
+            <a href="alquiler.html" class="activo" aria-current="page">Alquiler</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="contenido">
+        <h1>SOLICITA TU ALQUILER</h1>
+        <p class="subtitulo">Completa los datos para solicitar el alquiler de nuestras herramientas</p>
+        <section class="dos-columnas alquiler">
+            <!-- Formulario de demostración: no envía datos a un servidor -->
+            <form action="confirmacion.html" method="get">
+                <label for="nombre">Nombre Completo</label>
+                <input id="nombre" type="text" required>
+                <label for="equipo">Equipo que deseas alquilar</label>
+                <input id="equipo" type="text" required>
+                <label for="dias">Cuántos días</label>
+                <input id="dias" type="number" min="1" required>
+                <button class="boton" type="submit">Enviar solicitud</button>
+            </form>
+            <img class="imagen-lateral" src="imagenes/alquiler.png" alt="Retroexcavadora amarilla">
+        </section>
+    </main>
+</body>
+</html>

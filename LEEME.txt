@@ -1,0 +1,7 @@
+TOOLRENT & SALE - Versión básica
+Abre esta carpeta en Visual Studio Code y ejecuta index.html con Live Server.
+Copia tu video MP4 en imagenes con el nombre video.mp4.
+Todas las páginas usan estilos.css. Las clases de HTML indican qué reglas se aplican.
+La navegación utiliza enlaces; la venta tiene una página informativa sin precios inventados.
+Los formularios son demostrativos: no envían ni guardan datos.
+Práctica: cambia el color de .boton, el ancho de .producto y el gap de .productos; guarda y observa los resultados.
